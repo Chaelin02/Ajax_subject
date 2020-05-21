@@ -5,7 +5,7 @@ var py = document.getElementById('py');
 var cx = document.getElementById('cx');
 var cy = document.getElementById('cy');
 
-function showPosition(event){
+function showPosition(event){      //함수선언
     sx.value = event.screenX;
     sy.value = event.screenY;
     px.value = event.screenX;
