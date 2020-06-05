@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$(".class.otherclass") 선택자 실습</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $(".myClass").css("border","2px solid blue");
+            $(".myClass.otherClass").css("color","red");
+        });
+
+       </script>
+</head>
+<body>
+    <div clas="notMe">div class="notMe"</div>
+    <div clas="myClass">div class="myClass"</div>
+    <div clas="myClas">span class="myClas"</div>
+</body>
+</html>
